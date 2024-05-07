@@ -32,5 +32,16 @@ public class Operadores {
         //para funcionar eh necessario fazer o seguinte:
         numero = numero * -1;
         System.out.println(numero);
+
+        // repeticao
+        int numero1 = 5;
+        numero1 += 1;
+        System.out.println(numero1);
+        //Se fizer o print assim:
+        System.out.println(numero1++);
+        //nao altera o valor, pois o incremento foi feito depois
+        System.out.println(numero1);//aqui aparece o incremento
+        //tem que colocar o incremento antes
+        System.out.println(++ numero1);
     }
 }
