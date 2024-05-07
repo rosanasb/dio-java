@@ -43,5 +43,10 @@ public class Operadores {
         System.out.println(numero1);//aqui aparece o incremento
         //tem que colocar o incremento antes
         System.out.println(++ numero1);
+
+        boolean variavel = true;
+        System.out.println(! variavel);
+        variavel = !variavel;
+        System.out.println(variavel);
     }
 }
