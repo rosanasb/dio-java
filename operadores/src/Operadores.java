@@ -20,5 +20,17 @@ public class Operadores {
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
 
+        int numero = 5;
+        System.out.println(- numero);
+
+        numero = - numero;
+        System.out.println(numero);
+
+        //nao funciona para mudar para positivo novamente
+        numero = + numero;
+        System.out.println(numero);
+        //para funcionar eh necessario fazer o seguinte:
+        numero = numero * -1;
+        System.out.println(numero);
     }
 }
