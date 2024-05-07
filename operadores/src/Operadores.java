@@ -79,5 +79,10 @@ public class Operadores {
 	        System.out.println("Numero 1 menor ou igual que numero 2");
         if(numero3 != numero2)
 	        System.out.println("Numero 1 é diferente de numero 2");
+
+        String nomeUm = "Renata";
+        String nomeDois = new String("Renata");
+        //equals compara o conteudo de dois objetos sao iguais
+        System.out.println(nomeUm.equals(nomeDois));
     }
 }
