@@ -1,5 +1,6 @@
 public class Operadores {
     public static void main(String[] args) throws Exception {
+        //Operadores Aritmeticos
         String nomeCompleto = "LINGUAGEM" + "JAVA";
         System.out.println(nomeCompleto);
 
@@ -19,7 +20,7 @@ public class Operadores {
 
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
-
+        //Operadores Unarios
         int numero = 5;
         System.out.println(- numero);
 
@@ -59,12 +60,12 @@ public class Operadores {
         else
             resultado = "falso";
         System.out.println(resultado);
-
+        //Operadores ternarios
         //mesmo, mas com operador ternario
         String resultado1 = (a==b) ? "verdadeiro" : "falso";
 
         System.out.println(resultado1);
-
+        //Operadores realcionais
         int numero3 = 1;
         int numero2 = 2;
 
