@@ -6,7 +6,8 @@ public class Operadores {
         String concatenacao = "?";
         concatenacao = 1+1+1+"1";
         System.out.println(concatenacao);
-
+        /*Apartir do momento que ele detecta um caracter
+         * ele deixa de fazer a soma*/
         concatenacao = 1+"1"+1+"1";
         System.out.println(concatenacao);
 
