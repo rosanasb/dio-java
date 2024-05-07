@@ -92,5 +92,13 @@ public class Operadores {
 	        System.out.print("Os dois valores precisam ser verdadeiros");
         if(condicao1 || condicao2)
             System.out.print("Um dos valores precisa ser verdadeiro");
+
+        int numero4 = 1;
+        int numero5 = 1;
+        if(numero4== 2 && numero5 ++ == 2 )
+            System.out.println("As 2 condições são verdadeiras");
+
+        System.out.println("O numero 1 agora é " + numero4);
+        System.out.println("O numero 2 agora é " + numero5);
     }
 }
