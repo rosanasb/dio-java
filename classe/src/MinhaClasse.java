@@ -3,3 +3,9 @@ public class MinhaClasse {
         System.out.println("Oi, fui executado pelo Terminal");
     }
 }
+/*PASSOS:
+ * - Abrir CMD;
+ * - Localizar o arquivo: cd localizacao;
+ * -  dir consegue ver o que tem dentro da pasta;
+ * - java MinhaClasse para executar;
+ */
