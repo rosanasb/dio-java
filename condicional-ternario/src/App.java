@@ -2,8 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
 		int nota = 7;
         /*pega o nota e pergunta se (if) e >= 7?
-         * if sim = Aprovado
-         * else = Reprovado
+         * if  se sim = Aprovado
+         * else se nao = Reprovado
          */
 		String resultado = nota >=7 ? "Aprovado" : "Reprovado";
 		System.out.println(resultado);
