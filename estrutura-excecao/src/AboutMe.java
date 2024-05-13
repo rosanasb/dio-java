@@ -26,6 +26,7 @@ public class AboutMe {
         }
         catch(InputMismatchException e){
             System.out.println("Os campos idade e altura devem ser numericos");
+            //pode usar o System.err tambem, mas nao eh tao comum
         }
         
     }
