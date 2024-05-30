@@ -13,4 +13,7 @@ public class Desafio1 {
         System.out.println("A soma dos números pares é: " + somaPares);
     }
 }
-
+/*
+ * Continuar desafios
+ * https://github.com/digitalinnovationone/ganhando_produtividade_com_Stream_API_Java/tree/master/src/stream_api
+ */
