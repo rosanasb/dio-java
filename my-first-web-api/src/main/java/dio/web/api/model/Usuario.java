@@ -1,5 +1,8 @@
 package dio.web.api.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Classe que representa um usuário no sistema.")
 public class Usuario {
 	private Integer id;
 	private String login;
